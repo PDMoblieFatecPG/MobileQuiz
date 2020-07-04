@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MobileQuiz</string>
+    <string name="appName">Mobile Quiz</string>
+    <string name="startQuizText">começar</string>
 </resources>
