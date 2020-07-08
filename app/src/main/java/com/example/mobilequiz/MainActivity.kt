@@ -25,11 +25,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(intent)
     }
 }
-
-
-class ViewHolder {
+private class ViewHolder {
     var buttonQuiz: Button? = null
-
     companion object Instance {
         fun create(): ViewHolder = ViewHolder()
     }
