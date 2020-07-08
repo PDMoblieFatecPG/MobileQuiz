@@ -1,0 +1,621 @@
+{
+"question": [
+    {
+    "idQuestion": 1,
+    "question": "Um programa de seguran�a deve seguir os tr�s princ�pios de seguran�a conhecidos como CIA. Quais s�o esses princ�pios?",
+    "options": [
+      {
+        "optionKey": "Confidencialidade, intera��o e artif�cios",
+        "optionValue": "A"
+      },
+      {
+        "optionKey": "Confidencialidade, integridade e disponibilidade",
+        "optionValue": "B"
+      },
+      {
+        "optionKey": "Montagem, infalibilidade e seguran�a",
+        "optionValue": "C"
+      },
+      {
+        "optionKey": "Contenda, inatividade e argui��o",
+        "optionValue": "D"
+      }
+    ],
+    "answer": {
+      "optionKey": "B"
+    }
+  },
+  {
+  "idQuestion": 2,
+  "question": "H� diversas m�tricas utilizadas na realiza��o de medi��es de software. Qual dessas m�tricas � utilizada para medir a quantidade de linhas de c�digo?",
+  "options": [
+  {
+  "optionKey": "FP",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "CLOC",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "LOC",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "LOCK",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "C"
+  }
+  },
+  {
+  "idQuestion": 3,
+  "question": "No LINUX cada dispositivo � reconhecido por um nome, compondo assim a estrutura de diret�rios do sistema. Qual o nome com que o LINUX nomeia a unidade de disco master da primeira controladora IDE?",
+  "options": [
+  {
+  "optionKey": "HDA",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "SDA",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "SDB",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "FD0",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 4,
+  "question": "Qual comando LINUX apresenta uma lista os processos ativos e dos recursos utilizados no sistema em um determinado momento?",
+  "options": [
+  {
+  "optionKey": "TOP",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "PS",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "PSTREE",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "PKILL",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 5,
+  "question": "No modelo relacional, a afirma��o �Duas tuplas distintas, em qualquer estado da rela��o, n�o podem ter valores id�nticos para os atributos na chave� �?",
+  "options": [
+  {
+  "optionKey": "Uma restri��o de dom�nio do modelo",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Uma propriedade exclusiva do modelo objeto-relacional.",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Uma condi��o que dever� estar expl�cita na representa��o dos atributos de uma tupla.",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Uma propriedade de chave do modelo.",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "D"
+  }
+  },
+  {
+  "idQuestion": 6,
+  "question": "Uma das regras de Codd para o modelo relacional consiste em?",
+  "options": [
+  {
+  "optionKey": "Independ�ncia de distribui��o",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Subvers�o das regras de integridade ou restri��es quando utilizada uma linguagem de baixo n�vel.",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "N�o tratamento das atualiza��es de vis�es de dados",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Depend�ncia de dados f�sicos (mudan�a na mem�ria e no m�todo de acesso)",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 7,
+  "question": "No modelo relacional, vari�vel corresponde a?",
+  "options": [
+  {
+  "optionKey": "Um recipiente para se armazenar um valor que pode ser atualizado",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Uma constante individual",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Uma matriz de valores codificados e armazenados na mem�ria",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Um valor que n�o admite substitui��o",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 8,
+  "question": "Considere que, em determinado sistema, um dado � armazenado em um disco de rede, n�o no disco r�gido local. Trata-se de uma medida de.",
+  "options": [
+  {
+  "optionKey": "Integridade",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Confidencialidade",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Disponibilidade",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Vulnerabilidade",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "C"
+  }
+  },
+  {
+  "idQuestion": 9,
+  "question": "Qual programa do sistema operacional LINUX executa tarefas de modo autom�tico, em hor�rios pr�-determinados, e executa tarefas que n�o foram executadas, enquanto o sistema esteve desligado?",
+  "options": [
+  {
+  "optionKey": "Cron",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Anacron",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Crontab",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Fcron",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "D"
+  }
+  },
+  {
+  "idQuestion": 10,
+  "question": "Quais protocolos desempenham a fun��o da camada de Aplica��o do modelo OSI?",
+  "options": [
+  {
+  "optionKey": "TCP, UDP e SSH",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "HTTP, RTP e DNS",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "TCP, IP e HTTP",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "RDP, SNMP e PPP",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "B"
+  }
+  },
+  {
+  "idQuestion": 11,
+  "question": "",
+  "options": [
+  {
+  "optionKey": "FP",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "CLOC",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "LOC",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "LOCK",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 12,
+  "question": "Qual o c�digo SQL cont�m comandos do tipo DDL?",
+  "options": [
+  {
+  "optionKey": "Drop Table",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Delete From",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Select * From",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Insert Into",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 13,
+  "question": "Qual pasta no sistema operacional LINUX tem a fun��o de armazenar arquivos de dispositivos do sistema?",
+  "options": [
+  {
+  "optionKey": "/lib",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "/dev",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "/proc",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "/var",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "B"
+  }
+  },
+  {
+  "idQuestion": 14,
+  "question": "Quais os m�todos dispon�veis na classe HTTPServlet?",
+  "options": [
+  {
+  "optionKey": "getNome(), doGet(), doPost(), doHTTP()",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "init(), service(), destroy()",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "response(), doGet(), doPost(), destroy()",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "init(), doGet(), doPost(), request()",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "B"
+  }
+  },
+  {
+  "idQuestion": 15,
+  "question": "O data warehouse diferencia-se dos bancos de dados transacionais porque",
+  "options": [
+  {
+  "optionKey": "Tem dimensionalidade gen�rica e n�veis de agrega��o ilimitados",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Possui milhares de usu�rios de diferentes n�veis hier�rquicos dentro da organiza��o",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Trabalha com dados atuais, mas n�o com dados hist�ricos",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Faz uso intenso de opera��es di�rias e de processamento de transa��es continuamente",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 16,
+  "question": "",
+  "options": [
+  {
+  "optionKey": "== ~ %% || &&",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "= ! & or and",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "== ! % || &&",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "== ~ mod || &&",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "C"
+  }
+  },
+  {
+  "idQuestion": 17,
+  "question": "O componente (hardware) do computador que tem a fun��o de realizar a troca do calor do dissipador de calor com o ar, eliminando, no ar, o calor gerado pelo processador, � o(a)",
+  "options": [
+  {
+  "optionKey": "Chipset",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Setup",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Transformador",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Ventoinha",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "D"
+  }
+  },
+  {
+  "idQuestion": 18,
+  "question": "Acerca de Internet, intranet e tecnologias e procedimentos a elas associados, julgue os itens a seguir. Nos softwares de email, a op��o Bcc (blind carbon copy) tem como um de seus objetivos esconder os destinat�rios para evitar a��es de spam",
+  "options": [
+  {
+  "optionKey": "Certo",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Errado",
+  "optionValue": "B"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 19,
+  "question": "O teste de software que visa verificar que, por exemplo, a corre��o de uma falha (ou bug) n�o introduziu uma nova falha (ou bug), � o teste",
+  "options": [
+  {
+  "optionKey": "Revisional",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "De recupera��o",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "De regress�o",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Funcional",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "C"
+  }
+  },
+  {
+  "idQuestion": 20,
+  "question": "No que se refere aos conceitos de seguran�a da informa��o, assinale a alternativa correta",
+  "options": [
+  {
+  "optionKey": "Autenticidade � a propriedade da informa��o produzida por algu�m autenticado",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Confidencialidade � a propriedade da informa��o indispon�vel a quem n�o for autorizado",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Autentica��o � o processo que permite verificar a veracidade de uma informa��o",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Disponibilidade � a propriedade da informa��o dispon�vel a qualquer pessoa, em qualquer tempo",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "B"
+  }
+  },
+  {
+  "idQuestion": 21,
+  "question": "Vulnerabilidade �",
+  "options": [
+  {
+  "optionKey": "Ponto fraco de um ativo que pode ser explorado por uma amea�a",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Processo de identificar, reconhecer e tratar riscos",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Efeito da incerteza quanto aos objetivos",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "resultado de um evento que afetou um ativo",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 22,
+  "question": "Vari�veis JavaScript cont�m",
+  "options": [
+  {
+  "optionKey": "Um delimitador, escopo e um referenciador",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Um identificador, par�metro e um tipo de escopo",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Um identificador, escopo e um tipo de dados espec�fico",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Um identificador, extens�o e um ponteiro",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "C"
+  }
+  },
+  {
+  "idQuestion": 23,
+  "question": "A fun��o que invoca o compilador JavaScript, que pode ser usada para converter um texto JSON em um objeto, denomina-se:",
+  "options": [
+  {
+  "optionKey": "Eval",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "Decode",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Process",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Encode",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "A"
+  }
+  },
+  {
+  "idQuestion": 24,
+  "question": "No �mbito do MYSQL, assinale o comando que exibe as tabelas de um banco de dados",
+  "options": [
+  {
+  "optionKey": "Catalog -t",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "List",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "Show Tables",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "Schema -t",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "C"
+  }
+  },
+  {
+  "idQuestion": 25,
+  "question": "Qual entre os protocolos a seguir deve ser utilizado para que os datagramas enviados pela rede cheguem na ordem correta at� o destino, atuando na camada de transporte?",
+  "options": [
+  {
+  "optionKey": "IP",
+  "optionValue": "A"
+  },
+  {
+  "optionKey": "TCP",
+  "optionValue": "B"
+  },
+  {
+  "optionKey": "SMTP",
+  "optionValue": "C"
+  },
+  {
+  "optionKey": "FTP",
+  "optionValue": "D"
+  }
+  ],
+  "answer": {
+  "optionKey": "B"
+  }
+  }
+  ]
+}
