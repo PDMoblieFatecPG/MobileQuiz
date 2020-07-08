@@ -7,12 +7,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="332dp"
         android:layout_height="56dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="224dp"
+        android:fontFamily="@font/dosis_bold"
         android:text="@string/appName"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -30,9 +32,11 @@
         android:layout_height="51dp"
         android:layout_marginTop="40dp"
         android:background="@color/colorPrimary"
+        android:fontFamily="@font/dosis_bold"
         android:text="@string/startQuizText"
-        android:textStyle="bold"
         android:textColor="@color/colorTextLight"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
