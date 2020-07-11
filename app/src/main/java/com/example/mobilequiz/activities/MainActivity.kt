@@ -1,15 +1,15 @@
-package com.example.mobilequiz
+package com.example.mobilequiz.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import androidx.core.content.ContextCompat.startActivity
-import kotlinx.android.synthetic.main.activity_quiz.*
+import com.example.mobilequiz.R
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-    private val viewHolder = ViewHolder.create()
+    private val viewHolder =
+        ViewHolder.create()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -25,12 +25,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(intent)
     }
 }
-
-
-class ViewHolder {
+private class ViewHolder {
     var buttonQuiz: Button? = null
-
     companion object Instance {
-        fun create(): ViewHolder = ViewHolder()
+        fun create(): ViewHolder =
+            ViewHolder()
     }
 }
