@@ -1,3 +1,5 @@
+README DISPOSITIVOS MÓVEIS
+
 # Mobile Quiz
 
 
@@ -7,7 +9,13 @@ O objetivo é criar um tipo de quiz interativo visando o aumento do conhecimento
 Trata-se de um conjunto de perguntas aleatórias com diversos assuntos principalmente voltados à área de programação onde o usuário recebe ao iniciar o aplicativo um o jogador recebe um numero de perguntas que precisam ser respondidas dentro de um tempo limite.
 Após o fim do tempo ou do total de perguntas, o usuário recebe o resultado na tela juntamente com sua porcentagem de acerto. 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54251836/87225968-2c452c00-c367-11ea-939f-445a0af3cb02.jpeg" width="500" heigth="100" >
+</div>
+
 ## Tecnologias
+
+Acesse o mockup do projeto aqui: [MobileQuiz](https://www.figma.com/proto/YMn6Qo95pk06i3OEO2au70/Untitled?node-id=2%3A15&scaling=scale-down")
 
 Para executar o projeto, será necessário instalar os seguintes programas:
 
