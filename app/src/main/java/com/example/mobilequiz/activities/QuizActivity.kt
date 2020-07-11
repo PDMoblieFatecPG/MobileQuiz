@@ -19,6 +19,7 @@ class QuizActivity : AppCompatActivity() {
     private var buttonOption1: Button? = null
     private var buttonOption2: Button? = null
     private var buttonOption3: Button? = null
+    private var buttonOption4: Button? = null
     private var questionTextView: TextView? = null
     private var questions: ArrayList<QuestionListModel> ? = null
 
@@ -37,6 +38,7 @@ class QuizActivity : AppCompatActivity() {
         buttonOption1 = findViewById(R.id.button)
         buttonOption2 = findViewById(R.id.button2)
         buttonOption3 = findViewById(R.id.button3)
+        buttonOption4 = findViewById(R.id.button4)
         questionTextView = findViewById(R.id.questionTextView)
         timerProgressBar = findViewById(R.id.progressBarTimer)
     }
